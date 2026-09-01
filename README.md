@@ -2,13 +2,14 @@
 
 我喜欢把真实问题做成可运行、可验证、可维护的小项目。
 
-I build practical software across WeChat Mini Programs, embedded systems, ROS, and MQTT. My current focus is local-first tools with clear privacy boundaries and reproducible tests.
+I build practical software across WeChat Mini Programs, embedded systems, ROS, MQTT, and scientific modeling. My current focus is local-first tools, reproducible analysis, and clear evidence boundaries.
 
 ## Featured projects
 
 | Project | What it demonstrates | Quality signal |
 | --- | --- | --- |
 | [Pugo Toolbox](https://github.com/QAQgpnu/pugo-toolbox) | 31 个本地优先的微信小程序实用工具；无需登录、后端或 API 密钥 | 74 automated checks, release preflight, GitHub Actions |
+| [Heliostat Field Optimization](https://github.com/QAQgpnu/heliostat-field-optimization) | 根据 2023 数学建模参赛论文与留存结果重构的定日镜光学效率、数据审计和小规模优化 | Python, 16 tests, generated figures, documented model limits |
 | [ROS–MQTT Vehicle Bridge](https://github.com/QAQgpnu/ros-mqtt-vehicle-bridge) | ROS 1 与 MQTT 之间可配置的 JSON 桥接，面向机器人与车辆数据链路 | C++, security-focused configuration, documented architecture |
 | [Arduino RGB Plant Lamp](https://github.com/QAQgpnu/arduino-rgb-plant-lamp) | Arduino RGB 植物灯、串口 PWM 控制、功耗估算与接线说明 | Offline tests, wiring docs, versioned releases |
 
@@ -22,6 +23,7 @@ I build practical software across WeChat Mini Programs, embedded systems, ROS, a
 ## Current direction
 
 - Improve Pugo Toolbox with real user feedback and contributor-friendly issues.
+- Extend reproducible mathematical-modeling work without overstating reconstructed results.
 - Build reliable bridges between embedded devices, robotics middleware, and useful interfaces.
 - Share implementation notes that help other learners reproduce the result.
 
